@@ -1,8 +1,8 @@
-# 🚀 NestForge
+# 🚀 BookingChatApis
 
 <div align="center">
 
-![NestForge Logo](https://img.shields.io/badge/NestForge-v1.2.0-blue?style=for-the-badge&logo=nestjs)
+![BookingChatApis Logo](https://img.shields.io/badge/BookingChatApis-v1.2.0-blue?style=for-the-badge&logo=nestjs)
 
 **A Complete AI-Powered NestJS Boilerplate with Hexagonal Architecture**
 
@@ -22,9 +22,9 @@ _Built with enterprise-grade architecture patterns and automated code generation
 
 <div align="center">
 
-**🚀 NestForge - Complete Platform Walkthrough**
+**🚀 BookingChatApis - Complete Platform Walkthrough**
 
-Experience the full power of NestForge from setup to code generation to AI-assisted development
+Experience the full power of BookingChatApis from setup to code generation to AI-assisted development
 
 https://github.com/user-attachments/assets/8db02e0b-f3a0-475d-a535-01ed7068cbe0
 
@@ -32,13 +32,13 @@ https://github.com/user-attachments/assets/8db02e0b-f3a0-475d-a535-01ed7068cbe0
 
 ---
 
-## 🎥 How to Use NestForge
+## 🎥 How to Use BookingChatApis
 
 <div align="center">
 
 **🧭 Practical Demo – From Setup to Final Result**
 
-Watch a demonstration on how to use NestForge to quickly generate outcomes.
+Watch a demonstration on how to use BookingChatApis to quickly generate outcomes.
 
 https://github.com/user-attachments/assets/5cc4b4a7-a962-4e8b-b364-9a95b185ea3f
 
@@ -46,13 +46,13 @@ https://github.com/user-attachments/assets/5cc4b4a7-a962-4e8b-b364-9a95b185ea3f
 
 ---
 
-## 🎯 What is NestForge?
+## 🎯 What is BookingChatApis?
 
-NestForge is more than a boilerplate — it's a **complete AI-powered development platform** that takes you from database schema to production-ready API in minutes.
+BookingChatApis is more than a boilerplate — it's a **complete AI-powered development platform** that takes you from database schema to production-ready API in minutes.
 
 ### 🚀 Why It Stands Out
 
-Unlike traditional boilerplates, NestForge doesn’t just give you a starting point — it uses **AI-assistance generators** to create **production-ready CRUD modules** for your custom projects and then guides you in extending them with business logic while keeping your code fully aligned with architectural standards.
+Unlike traditional boilerplates, BookingChatApis doesn’t just give you a starting point — it uses **AI-assistance generators** to create **production-ready CRUD modules** for your custom projects and then guides you in extending them with business logic while keeping your code fully aligned with architectural standards.
 
 ### ⚡ Core Capabilities
 
@@ -134,22 +134,22 @@ CI/CD workflows with GitHub Actions, database management, and Sentry monitoring 
 
 ## 🛠️ Build Custom Projects
 
-NestForge isn't just a boilerplate—it's a complete development platform that empowers you to build custom features with minimal effort. Here's how our features work together to accelerate your development:
+BookingChatApis isn't just a boilerplate—it's a complete development platform that empowers you to build custom features with minimal effort. Here's how our features work together to accelerate your development:
 
 ### 🎯 **The Custom Development Workflow**
 
 **Step 1: Database Design** → **Step 2: Code Generation** → **Step 3: AI-Assisted Development**
 
 1. **Create Migration File** - Define your database schema using TypeORM migrations
-   - 🤖 **[NestForge Schema Architect](https://chatgpt.com/g/g-68c7c2d593348191beb9ffa8db839f2f-nestforge-schema-architect)** - This custom GPTs will help you generate complete database schemas from your requirements in 3 simple steps (Requirements → Overview → SQL)
+   - 🤖 **[BookingChatApis Schema Architect](https://chatgpt.com/g/g-68c7c2d593348191beb9ffa8db839f2f-nestforge-schema-architect)** - This custom GPTs will help you generate complete database schemas from your requirements in 3 simple steps (Requirements → Overview → SQL)
 2. **Generate JSON Schema** - Convert your SQL schema to Hygen-compatible JSON using our AI-powered prompts
-   - 🤖 **[NestForge SQL to JSON](https://chatgpt.com/g/g-68c93a7fdb0c819184b9eb4cb038b866-nestforge-sql-to-json)** - This custom GPTs will help you generate NestForge-compatible JSON files from your PostgreSQL SQL schemas for seamless code generation
+   - 🤖 **[BookingChatApis SQL to JSON](https://chatgpt.com/g/g-68c93a7fdb0c819184b9eb4cb038b866-nestforge-sql-to-json)** - This custom GPTs will help you generate BookingChatApis-compatible JSON files from your PostgreSQL SQL schemas for seamless code generation
 3. **Run Hygen Commands** - Generate complete modules with tests, DTOs, services, controllers, and repositories
 4. **AI-Enhanced Development** - Use Cursor AI with our comprehensive `.cursorrules` training material
 
 ### 🤖 **AI-Powered Development with Cursor**
 
-NestForge includes extensive `.cursorrules` configuration that trains Cursor AI to understand:
+BookingChatApis includes extensive `.cursorrules` configuration that trains Cursor AI to understand:
 
 - **Hexagonal Architecture Patterns** - AI knows the exact module structure and boundaries
 - **Hygen Generator Commands** - AI can run the correct generators automatically
@@ -188,25 +188,25 @@ NestForge includes extensive `.cursorrules` configuration that trains Cursor AI 
 
 ## 🚀 Quick Start
 
-Get NestForge running in minutes with our automated setup script. Clone the repository and run `npm run setup` for complete initialization from database setup to running server.
+Get BookingChatApis running in minutes with our automated setup script. Clone the repository and run `npm run setup` for complete initialization from database setup to running server.
 
 📖 **[Installation Guide](docs/installing-and-running.md)** - Manual setup and troubleshooting
 
 ## ⚙️ Automated Setup
 
-NestForge includes a powerful automated setup script that handles everything from environment configuration to database initialization and server startup. Perfect for quick project initialization and consistent development environments.
+BookingChatApis includes a powerful automated setup script that handles everything from environment configuration to database initialization and server startup. Perfect for quick project initialization and consistent development environments.
 
 📖 **[Setup Script Guide](docs/setup-script.md)** - Complete automated setup documentation
 
 ## 🏗️ Architecture Overview
 
-NestForge implements **Hexagonal Architecture** (Ports & Adapters) with clean separation between business logic and infrastructure concerns. Each module follows a consistent structure ensuring maintainability and testability.
+BookingChatApis implements **Hexagonal Architecture** (Ports & Adapters) with clean separation between business logic and infrastructure concerns. Each module follows a consistent structure ensuring maintainability and testability.
 
 📖 **[Complete Architecture Guide](docs/architecture.md)** - Deep dive into hexagonal patterns, module structure, and architectural principles
 
 ## 🤖 Code Generation
 
-NestForge provides powerful code generation capabilities through Hygen generators. Create entire modules from JSON schemas, SQL statements, or interactive prompts with support for entities, relationships, and enums.
+BookingChatApis provides powerful code generation capabilities through Hygen generators. Create entire modules from JSON schemas, SQL statements, or interactive prompts with support for entities, relationships, and enums.
 
 ### 📚 **Documentation & Guides**
 
@@ -226,7 +226,7 @@ Complete documentation covering architecture, development workflows, and product
 
 📖 **[Full Documentation Index](docs/readme.md)** - Comprehensive guide with table of contents
 
-## 🌟 What Makes NestForge Special?
+## 🌟 What Makes BookingChatApis Special?
 
 ### 🎯 **Developer Experience**
 
@@ -287,9 +287,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you find it helpful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/hhsadiq/NestForge?style=social)](https://github.com/hhsadiq/NestForge)
-[![GitHub forks](https://img.shields.io/github/forks/hhsadiq/NestForge?style=social)](https://github.com/hhsadiq/NestForge)
+[![GitHub stars](https://img.shields.io/github/stars/hhsadiq/BookingChatApis?style=social)](https://github.com/hhsadiq/BookingChatApis)
+[![GitHub forks](https://img.shields.io/github/forks/hhsadiq/BookingChatApis?style=social)](https://github.com/hhsadiq/BookingChatApis)
 
-**Built with ❤️ by the NestForge Team**
+**Built with ❤️ by the BookingChatApis Team**
 
 </div>

@@ -27,7 +27,7 @@ jobs:
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads NVM
             echo "After Loading NVM..."
             # Navigate to your app directory
-            cd nestforge
+            cd booking-chat-apis
             echo "before pulling code..."
             git pull origin develop
             echo "Before npm i"
@@ -39,20 +39,20 @@ jobs:
             echo "After npm i"
             
             # Stop the application before updating environment variables
-            #pm2 stop nestforge
-            pm2 delete nestforge
+            #pm2 stop booking-chat-apis
+            pm2 delete booking-chat-apis
             
             # Get environment variables from AWS Secrets Manager
             echo "Fetching environment variables from AWS Secrets Manager..."
-            aws secretsmanager get-secret-value --secret-id "develop/nestforge" --query 'SecretString' --output text | jq -r 'to_entries[] | "\(.key)=\(.value | @json)"' | sed 's/^"\(.*\)"$/\1/' > .env
+            aws secretsmanager get-secret-value --secret-id "develop/booking-chat-apis" --query 'SecretString' --output text | jq -r 'to_entries[] | "\(.key)=\(.value | @json)"' | sed 's/^"\(.*\)"$/\1/' > .env
             echo "Environment variables updated."
             
             echo "Running npm run build..."
             npm run build
             echo "After npm run build"
             
-            #pm2 restart nestforge
-            pm2 start dist/src/main.js --name nestforge -i max
+            #pm2 restart booking-chat-apis
+            pm2 start dist/src/main.js --name booking-chat-apis -i max
             pm2 list
             echo "server is running..."
             pm2 save
